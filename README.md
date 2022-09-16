@@ -7,3 +7,5 @@
 ## MUI install
 
 - npm install @mui/material @emotion/react @emotion/styled
+  ※アイコンもインストール
+- npm install @mui/icons-material
