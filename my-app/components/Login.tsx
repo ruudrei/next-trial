@@ -21,14 +21,18 @@ export const Login = () => {
         sx={{
           p: 4,
           height: "70vh",
-          width: "280px",
+          width: "50vw",
+          minWidth: "360px",
+          maxWidth: "600px",
           m: "20px auto",
         }}
       >
         <Grid container direction="column" alignItems="center">
+          {/* アイコン */}
           <Avatar sx={{ bgcolor: teal[400] }}>
             <LockOutlinedIcon />
           </Avatar>
+
           <Typography variant={"h5"} sx={{ m: "30px" }}>
             Sign In
           </Typography>
