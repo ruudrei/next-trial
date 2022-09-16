@@ -25,12 +25,7 @@ export const Login = () => {
           m: "20px auto",
         }}
       >
-        <Grid
-          container
-          direction="column"
-          justifyContent="flex-start" //多分、デフォルトflex-startなので省略できる。
-          alignItems="center"
-        >
+        <Grid container direction="column" alignItems="center">
           <Avatar sx={{ bgcolor: teal[400] }}>
             <LockOutlinedIcon />
           </Avatar>
